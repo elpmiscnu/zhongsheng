@@ -1,0 +1,212 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="author" content="#" />
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1">
+    <meta name="Keywords" content="深圳市中晟金属科技有限公司"><meta name="Description" content="深圳市中晟金属科技有限公司"><title>深圳市中晟金属科技有限公司</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <link href="css/slick.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <link href="css/media.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/swiper.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/pricing.css" rel="stylesheet">
+
+    <script language="javascript" type="text/javascript" src="js/jquery-1.9.1.js"></script>
+    <script language="javascript" type="text/javascript" src="js/swiper-3.4.2.jquery.min.js"></script>
+    <script language="javascript" type="text/javascript" src="js/slick.js"></script>
+    <!--[if lte IE 6]>
+<script src="script/png.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        DD_belatedPNG.fix('div, ul, img, li, input , a');
+    </script>
+<![endif]-->
+</head>
+
+<body>
+    <!--新导航栏-->
+   <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+      <h5 class="my-0 mr-md-auto font-weight-normal"><img src="img/logo1.jpg" style="height:65x;width:400px"></h5>
+      <nav class="my-2 my-md-0 mr-md-3">
+        <a class="p-2 text-dark" href="index.html" sty>首页</a>
+        <a class="p-2 text-dark" href="about.html">关于我们</a>
+        <a class="p-2 text-dark" href="luomu.html">产品中心</a>
+        <a class="p-2 text-dark" href="case.html">案例中心</a>
+        <a class="p-2 text-dark" href="contact.html" style="background-color:#5DADE2">联系我们</a>
+      </nav>
+    </div>
+
+    <main role="main">
+
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="first-slide" src="img/building1.jpg">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <h1></h1>
+                <p></p>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+    <!-- 内容块-开始 -->
+    <div class="indWrap">
+        <div class="Company_profile_background">
+            <div class="Company_profile_headerbox">
+                <ul class="Company_profile_header">
+                    <li class="header_border"><a class="header_color"  href="contact.html">联系我们</a></li>
+                </ul>
+                <div class="Company_profile_header2">
+                    <h2>联系我们</h2>
+                    <span id="plus_sign">+</span>
+                    <ul class="pull-down" id="pull-down">
+
+                        <li><a   href="contact.html">联系我们</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="Company_profile_Contentbox">
+
+            <h2 class="Company_profile_Content_h2">联系我们</h2>
+            <div class="Company_profile_Content_box">
+                <style type="text/css">#allmap{width:100%;height:500px;}
+#allmap img{width:auto;}
+</style>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=IfCDZ2NhHkSGEiZyAqqKIj73"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.js"></script>
+<link href="http://api.map.baidu.com/library/SearchInfoWindow/1.5/src/SearchInfoWindow_min.css" rel="stylesheet" />
+
+<div id="allmap"></div>
+<script type="text/javascript">
+    // 百度地图API功能
+    var map = new BMap.Map('allmap');
+    var poi = new BMap.Point(114.302,22.7725);
+    map.centerAndZoom(poi, 16);
+    map.enableScrollWheelZoom();
+
+    var content = '<div style="margin:0;line-height:20px;padding:2px;">' +
+                    '地址：深圳市龙岗区坪地香元排路1号<br />联系方式：<br />邮箱：' +
+                  '</div>';
+
+    //创建检索信息窗口对象
+    var searchInfoWindow = null;
+    searchInfoWindow = new BMapLib.SearchInfoWindow(map, content, {
+            title  : "深圳市中晟金属科技有限公司",      //标题
+            width  : 290,             //宽度
+            height : 105,              //高度
+            panel  : "panel",         //检索结果面板
+            enableAutoPan : true,     //自动平移
+            searchTypes   :[
+                BMAPLIB_TAB_SEARCH,   //周边检索
+                BMAPLIB_TAB_TO_HERE,  //到这里去
+                BMAPLIB_TAB_FROM_HERE //从这里出发
+            ]
+        });
+    var marker = new BMap.Marker(poi); //创建marker对象
+    marker.enableDragging(); //marker可拖拽
+    marker.addEventListener("click", function(e){
+        searchInfoWindow.open(marker);
+    })
+    map.addOverlay(marker); //在地图中添加marker
+</script>
+<p>名称：深圳市中晟金属科技有限公司<br />
+地址:深圳市龙岗区坪地香元排路1号<br />
+联系方式：<br />
+邮箱：</p>
+
+            </div>
+        </div>
+        <!--兼容手机-->
+        <div class="phIndexPart1 pc-hide">
+        </div>
+    </div>
+    <!-- 内容块-结束 -->
+
+
+    
+
+
+<!--新底部-->
+<div class="container">
+<footer class="pt-4 my-md-5 pt-md-5 border-top">
+  <div class="row">
+    <div class="col-12 col-md">
+      <small class="d-block mb-3 text-muted">底部导航</small>
+    </div>
+    <div class="col-6 col-md">
+       <a href="about.html"><h5>关于我们</h5></a>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="about.html">公司简介</a></li>
+        <li><a class="text-muted" href="honor.html">公司荣誉</a></li>
+        <li><a class="text-muted" href="partners.html">合作伙伴</a></li>
+              
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <a href="luomu.html"><h5>产品中心</h5></a>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="luomu.html">螺母</a></li>
+        <li><a class="text-muted" href="luosi.html">螺丝</a></li>
+        <li><a class="text-muted" href="others.html">其他</a></li>
+
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <a href="case.html"><h5>案例中心</h5></a>
+      <ul class="list-unstyled text-small">
+        <li><a class="text-muted" href="case1.html">案例一</a></li>
+        <li><a class="text-muted" href="case2.html">案例二</a></li>
+      </ul>
+    </div>
+    <div class="col-6 col-md">
+      <a href="contact.html"><h5>联系我们</h5></a>
+       <ul class="list-unstyled text-small">
+        </ul>
+    </div>
+  </div>
+</footer>
+</div>
+<div style="background-color: #000;height:30px; width:100%;">
+    <div>
+        <div style="color: #fff">Copyright © 2018 深圳市中晟金属科技有限公司 版权所有</div>
+    </div>
+</div>
+
+<script src="js/jquery-slim.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <script src="js/holder.min.js"></script>
+
+
+<script language="javascript" type="text/javascript" src="js/js.js"></script>
+<script language="javascript" type="text/javascript" src="js/jquery.media.js"></script>
+
+
+
+</body>
+</html>
